@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A45C8A3926062A2000EEDDEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C8A3826062A2000EEDDEC /* AppDelegate.swift */; };
+		A45C8A3B26062A2000EEDDEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C8A3A26062A2000EEDDEC /* SceneDelegate.swift */; };
+		A45C8A3D26062A2000EEDDEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C8A3C26062A2000EEDDEC /* ViewController.swift */; };
+		A45C8A4226062A2100EEDDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45C8A4126062A2100EEDDEC /* Assets.xcassets */; };
+		A45C8A4526062A2100EEDDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45C8A4326062A2100EEDDEC /* LaunchScreen.storyboard */; };
+		A45C8A5026062C9A00EEDDEC /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C8A4F26062C9A00EEDDEC /* Presenter.swift */; };
+		A45C8A5526063CF600EEDDEC /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A45C8A5426063CEB00EEDDEC /* SourceSansPro-SemiBold.ttf */; };
+		A45C8A5A26065C8400EEDDEC /* PinnedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C8A5926065C8400EEDDEC /* PinnedTableViewCell.swift */; };
+		A45C8A5E26072F2D00EEDDEC /* RepoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C8A5D26072F2D00EEDDEC /* RepoCollectionViewCell.swift */; };
+		A45C8A6B260770AA00EEDDEC /* UserProfile.graphql in Sources */ = {isa = PBXBuildFile; fileRef = A45C8A6A260770AA00EEDDEC /* UserProfile.graphql */; };
+		A49BBFD3261033F4003A624F /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = A49BBFD2261033F4003A624F /* ApolloWebSocket */; };
+		A49BBFD5261033F4003A624F /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = A49BBFD4261033F4003A624F /* Apollo */; };
+		A49BBFE12610477F003A624F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49BBFE02610477F003A624F /* API.swift */; };
+		A49BBFE426105722003A624F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49BBFE326105722003A624F /* Network.swift */; };
+		A49BBFE926108DA7003A624F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49BBFE826108DA7003A624F /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A45C8A3526062A2000EEDDEC /* OtriumChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtriumChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45C8A3826062A2000EEDDEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A45C8A3A26062A2000EEDDEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A45C8A3C26062A2000EEDDEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A45C8A4126062A2100EEDDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45C8A4426062A2100EEDDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A45C8A4626062A2100EEDDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45C8A4F26062C9A00EEDDEC /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		A45C8A5426063CEB00EEDDEC /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		A45C8A5726064FF800EEDDEC /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		A45C8A5926065C8400EEDDEC /* PinnedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedTableViewCell.swift; sourceTree = "<group>"; };
+		A45C8A5D26072F2D00EEDDEC /* RepoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCollectionViewCell.swift; sourceTree = "<group>"; };
+		A45C8A6A260770AA00EEDDEC /* UserProfile.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserProfile.graphql; sourceTree = "<group>"; };
+		A49BBFDD26103A02003A624F /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		A49BBFE02610477F003A624F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		A49BBFE326105722003A624F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A49BBFE826108DA7003A624F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A45C8A3226062A2000EEDDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49BBFD3261033F4003A624F /* ApolloWebSocket in Frameworks */,
+				A49BBFD5261033F4003A624F /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45C8A2C26062A2000EEDDEC = {
+			isa = PBXGroup;
+			children = (
+				A45C8A3726062A2000EEDDEC /* OtriumChallenge */,
+				A45C8A3626062A2000EEDDEC /* Products */,
+				A9401A1C38A2EDEFC33FC668 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A45C8A3626062A2000EEDDEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45C8A3526062A2000EEDDEC /* OtriumChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45C8A3726062A2000EEDDEC /* OtriumChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				A49BBFE726108D99003A624F /* Models */,
+				A45C8A3826062A2000EEDDEC /* AppDelegate.swift */,
+				A45C8A3A26062A2000EEDDEC /* SceneDelegate.swift */,
+				A45C8A3C26062A2000EEDDEC /* ViewController.swift */,
+				A45C8A4F26062C9A00EEDDEC /* Presenter.swift */,
+				A45C8A5926065C8400EEDDEC /* PinnedTableViewCell.swift */,
+				A45C8A5D26072F2D00EEDDEC /* RepoCollectionViewCell.swift */,
+				A45C8A4126062A2100EEDDEC /* Assets.xcassets */,
+				A45C8A4326062A2100EEDDEC /* LaunchScreen.storyboard */,
+				A45C8A4626062A2100EEDDEC /* Info.plist */,
+				A49BBFDD26103A02003A624F /* schema.json */,
+				A45C8A6A260770AA00EEDDEC /* UserProfile.graphql */,
+				A49BBFE326105722003A624F /* Network.swift */,
+				A49BBFE02610477F003A624F /* API.swift */,
+				A45C8A5326063C3100EEDDEC /* fonts */,
+			);
+			path = OtriumChallenge;
+			sourceTree = "<group>";
+		};
+		A45C8A5326063C3100EEDDEC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A45C8A5726064FF800EEDDEC /* SourceSansPro-Light.ttf */,
+				A45C8A5426063CEB00EEDDEC /* SourceSansPro-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		A49BBFE726108D99003A624F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A49BBFE826108DA7003A624F /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9401A1C38A2EDEFC33FC668 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A45C8A3426062A2000EEDDEC /* OtriumChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45C8A4926062A2100EEDDEC /* Build configuration list for PBXNativeTarget "OtriumChallenge" */;
+			buildPhases = (
+				A49BBFDA26103861003A624F /* Apollo CLI */,
+				A45C8A3126062A2000EEDDEC /* Sources */,
+				A45C8A3226062A2000EEDDEC /* Frameworks */,
+				A45C8A3326062A2000EEDDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtriumChallenge;
+			packageProductDependencies = (
+				A49BBFD2261033F4003A624F /* ApolloWebSocket */,
+				A49BBFD4261033F4003A624F /* Apollo */,
+			);
+			productName = OtriumChallenge;
+			productReference = A45C8A3526062A2000EEDDEC /* OtriumChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45C8A2D26062A2000EEDDEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A45C8A3426062A2000EEDDEC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = A45C8A3026062A2000EEDDEC /* Build configuration list for PBXProject "OtriumChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A45C8A2C26062A2000EEDDEC;
+			packageReferences = (
+				A49BBFD1261033F4003A624F /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = A45C8A3626062A2000EEDDEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45C8A3426062A2000EEDDEC /* OtriumChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A45C8A3326062A2000EEDDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45C8A5526063CF600EEDDEC /* SourceSansPro-SemiBold.ttf in Resources */,
+				A45C8A4526062A2100EEDDEC /* LaunchScreen.storyboard in Resources */,
+				A45C8A4226062A2100EEDDEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A49BBFDA26103861003A624F /* Apollo CLI */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Apollo CLI";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A45C8A3126062A2000EEDDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45C8A3D26062A2000EEDDEC /* ViewController.swift in Sources */,
+				A45C8A3926062A2000EEDDEC /* AppDelegate.swift in Sources */,
+				A45C8A5E26072F2D00EEDDEC /* RepoCollectionViewCell.swift in Sources */,
+				A45C8A5A26065C8400EEDDEC /* PinnedTableViewCell.swift in Sources */,
+				A45C8A6B260770AA00EEDDEC /* UserProfile.graphql in Sources */,
+				A49BBFE426105722003A624F /* Network.swift in Sources */,
+				A45C8A5026062C9A00EEDDEC /* Presenter.swift in Sources */,
+				A49BBFE12610477F003A624F /* API.swift in Sources */,
+				A45C8A3B26062A2000EEDDEC /* SceneDelegate.swift in Sources */,
+				A49BBFE926108DA7003A624F /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A45C8A4326062A2100EEDDEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45C8A4426062A2100EEDDEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A45C8A4726062A2100EEDDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A45C8A4826062A2100EEDDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A45C8A4A26062A2100EEDDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H48ATD462T;
+				INFOPLIST_FILE = OtriumChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eyepax.OtriumChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A45C8A4B26062A2100EEDDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H48ATD462T;
+				INFOPLIST_FILE = OtriumChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eyepax.OtriumChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A45C8A3026062A2000EEDDEC /* Build configuration list for PBXProject "OtriumChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45C8A4726062A2100EEDDEC /* Debug */,
+				A45C8A4826062A2100EEDDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45C8A4926062A2100EEDDEC /* Build configuration list for PBXNativeTarget "OtriumChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45C8A4A26062A2100EEDDEC /* Debug */,
+				A45C8A4B26062A2100EEDDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A49BBFD1261033F4003A624F /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.42.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A49BBFD2261033F4003A624F /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A49BBFD1261033F4003A624F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+		A49BBFD4261033F4003A624F /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A49BBFD1261033F4003A624F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A45C8A2D26062A2000EEDDEC /* Project object */;
+}

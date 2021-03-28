@@ -1,0 +1,68 @@
+query UserProfile($login: String!) {
+  user(login: $login) {
+  #user(login: "fogleman") {
+      name
+      login
+      avatarUrl
+      anyPinnableItems
+      email
+      followers{
+          totalCount
+      }
+      following{
+          totalCount
+      }
+      #fogleman
+      pinnedItems(first: 3) {
+          #totalCount
+        edges {
+          node {
+            ... on Repository {
+              name
+              description
+              primaryLanguage{
+                  name
+              }
+              forkCount
+              openGraphImageUrl
+              projects{
+                  totalCount
+              }
+            }
+          }
+        }
+      }
+      #pinnedItemsRemaining
+      topRepositories(first: 10, orderBy: {field: STARGAZERS, direction: DESC}){
+          totalCount
+          nodes{
+              name
+              description
+              primaryLanguage{
+                  name
+              }
+           forkCount
+              openGraphImageUrl
+              projects{
+                  totalCount
+              }
+          }
+      }
+      starredRepositories(first:10){
+          totalCount
+          nodes{
+              name
+              description
+              primaryLanguage{
+                  name
+              }
+              forkCount
+              openGraphImageUrl
+              projects{
+                  totalCount
+              }
+          }
+      }
+  }
+}
+
