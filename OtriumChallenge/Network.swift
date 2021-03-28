@@ -19,7 +19,7 @@ class Network {
         let client = URLSessionClient()
         let provider = NetworkInterceptorProvider(store: store, client: client)
         let url = URL(string: "https://api.github.com/graphql")!
-        let token = "445f63d512865bcf6ebe576574cfb5d7c973c018"
+        let token = ""
         let header = ["Authorization": "Bearer \(token)"]
         
         let requestChainTransport = RequestChainNetworkTransport(interceptorProvider: provider,
